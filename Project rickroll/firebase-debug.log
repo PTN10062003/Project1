@@ -1,0 +1,44 @@
+[debug] [2023-04-13T02:30:17.971Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T02:30:17.973Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LAPTOP KIEN LONG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-13T02:30:17.974Z] CLI Version:   11.26.0
+[debug] [2023-04-13T02:30:17.974Z] Platform:      win32
+[debug] [2023-04-13T02:30:17.974Z] Node Version:  v18.15.0
+[debug] [2023-04-13T02:30:17.975Z] Time:          Thu Apr 13 2023 09:30:17 GMT+0700 (Giờ Đông Dương)
+[debug] [2023-04-13T02:30:17.975Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T02:30:17.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T02:30:17.985Z] > authorizing via signed-in user (thanhnamlk2003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LAPTOP KIEN LONG\Desktop\Project rickroll
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-13T02:31:51.012Z] > refreshing access token with scopes: []
+[debug] [2023-04-13T02:31:51.015Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-13T02:31:51.015Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T02:31:51.346Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-13T02:31:51.346Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T02:31:51.366Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-13T02:31:52.201Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-13T02:31:52.201Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project project-rick-roll (Project-rick-roll) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
